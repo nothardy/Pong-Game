@@ -1,0 +1,447 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"9 C:\Users\piniel\MPLABXProjects\LABFINAL.X\LCD.h
+[v _invertir invertir `(v  1 e 1 0 ]
+"17
+[v _envio envio `(v  1 e 1 0 ]
+"27
+[v _inicializacion inicializacion `(v  1 e 1 0 ]
+"135
+[v _bajar bajar `(v  1 e 1 0 ]
+"157
+[v _subir subir `(v  1 e 1 0 ]
+"65 C:\Users\piniel\MPLABXProjects\LABFINAL.X\Trayectoria.c
+[v _rutinainterrupciones rutinainterrupciones `II(v  1 e 1 0 ]
+"186
+[v _main main `(v  1 e 1 0 ]
+"253
+[v _InitES InitES `(v  1 e 1 0 ]
+"271
+[v _InitTMR1 InitTMR1 `(v  1 e 1 0 ]
+"286
+[v _InitSPI InitSPI `(v  1 e 1 0 ]
+"314
+[v _enviardato0 enviardato0 `(v  1 e 1 0 ]
+"329
+[v _enviardato enviardato `(v  1 e 1 0 ]
+[v i1_enviardato enviardato `(v  1 e 1 0 ]
+"361
+[v _enviardato2 enviardato2 `(v  1 e 1 0 ]
+[v i1_enviardato2 enviardato2 `(v  1 e 1 0 ]
+"391
+[v _Posicioninicial Posicioninicial `(v  1 e 1 0 ]
+"485
+[v _Juego Juego `(v  1 e 1 0 ]
+"822
+[v _Gol Gol `(v  1 e 1 0 ]
+"859
+[v _Saque Saque `(v  1 e 1 0 ]
+"889
+[v _Marcador Marcador `(v  1 e 1 0 ]
+"1045
+[v _barras barras `(v  1 e 1 0 ]
+[v i1_barras barras `(v  1 e 1 0 ]
+"226 C:\Program Files (x86)\Microchip\xc8\v1.45\include\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S19 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"243
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES28  1 e 1 @6 ]
+"288
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+[s S148 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"305
+[u S157 . 1 `S148 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES157  1 e 1 @7 ]
+"350
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+[s S46 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"480
+[s S55 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S60 . 1 `S46 1 . 1 0 `S55 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES60  1 e 1 @11 ]
+[s S216 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"551
+[u S224 . 1 `S216 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES224  1 e 1 @12 ]
+"648
+[v _TMR1 TMR1 `VEus  1 e 2 @14 ]
+"669
+[v _T1CON T1CON `VEuc  1 e 1 @16 ]
+[s S172 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 TMR1CS 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1GE 1 0 :1:6 
+`uc 1 T1GINV 1 0 :1:7 
+]
+"698
+[s S180 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1INSYNC 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T1GIV 1 0 :1:7 
+]
+[s S188 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T1SYNC 1 0 :1:2 
+]
+[u S191 . 1 `S172 1 . 1 0 `S180 1 . 1 0 `S188 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES191  1 e 1 @16 ]
+"841
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"848
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1476
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S124 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1555
+[u S133 . 1 `S124 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES133  1 e 1 @135 ]
+"1600
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+[s S235 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"1716
+[u S243 . 1 `S235 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES243  1 e 1 @140 ]
+"2175
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+[s S258 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"2229
+[s S267 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S272 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DATA 1 0 :1:5 
+]
+[s S278 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S283 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S288 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S293 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[u S298 . 1 `S258 1 . 1 0 `S267 1 . 1 0 `S272 1 . 1 0 `S278 1 . 1 0 `S283 1 . 1 0 `S288 1 . 1 0 `S293 1 . 1 0 ]
+[v _SSPSTATbits SSPSTATbits `VES298  1 e 1 @148 ]
+"2414
+[v _IOCB IOCB `VEuc  1 e 1 @150 ]
+"3385
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3447
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"42 C:\Users\piniel\MPLABXProjects\LABFINAL.X\Trayectoria.c
+[v _primerinicio primerinicio `uc  1 e 1 0 ]
+[v _saque saque `uc  1 e 1 0 ]
+[v _gol1 gol1 `uc  1 e 1 0 ]
+[v _gol2 gol2 `uc  1 e 1 0 ]
+[v _ledball ledball `uc  1 e 1 0 ]
+[v _filaball filaball `uc  1 e 1 0 ]
+[v _ledbarra1 ledbarra1 `uc  1 e 1 0 ]
+[v _ledbarra2 ledbarra2 `uc  1 e 1 0 ]
+[v _puntaje1 puntaje1 `uc  1 e 1 0 ]
+[v _puntaje2 puntaje2 `uc  1 e 1 0 ]
+[v _banderagol banderagol `uc  1 e 1 0 ]
+[v _Trayectoria Trayectoria `uc  1 e 1 0 ]
+"43
+[v _bandera1 bandera1 `uc  1 e 1 0 ]
+[v _bandera2 bandera2 `uc  1 e 1 0 ]
+[v _bandera3 bandera3 `uc  1 e 1 0 ]
+[v _bandera4 bandera4 `uc  1 e 1 0 ]
+"45
+[v _tiempo tiempo `uc  1 e 1 0 ]
+"186
+[v _main main `(v  1 e 1 0 ]
+{
+"251
+} 0
+"27 C:\Users\piniel\MPLABXProjects\LABFINAL.X\LCD.h
+[v _inicializacion inicializacion `(v  1 e 1 0 ]
+{
+"132
+} 0
+"391 C:\Users\piniel\MPLABXProjects\LABFINAL.X\Trayectoria.c
+[v _Posicioninicial Posicioninicial `(v  1 e 1 0 ]
+{
+"483
+} 0
+"485
+[v _Juego Juego `(v  1 e 1 0 ]
+{
+"820
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 27 ]
+"30
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 5 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 4 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 44 ]
+"73
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 39 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 43 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 42 ]
+[v ___ftmul@exp exp `uc  1 a 1 38 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 28 ]
+[v ___ftmul@f2 f2 `f  1 p 3 31 ]
+"157
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 12 ]
+[v ___ftpack@exp exp `uc  1 p 1 15 ]
+[v ___ftpack@sign sign `uc  1 p 1 16 ]
+"86
+} 0
+"859 C:\Users\piniel\MPLABXProjects\LABFINAL.X\Trayectoria.c
+[v _Saque Saque `(v  1 e 1 0 ]
+{
+"887
+} 0
+"1045
+[v _barras barras `(v  1 e 1 0 ]
+{
+[v barras@posicionbarra1 posicionbarra1 `uc  1 a 1 wreg ]
+"1052
+[v barras@barrafinal2 barrafinal2 `uc  1 a 1 28 ]
+"1048
+[v barras@barrafinal1 barrafinal1 `uc  1 a 1 27 ]
+"1045
+[v barras@posicionbarra1 posicionbarra1 `uc  1 a 1 wreg ]
+[v barras@posicionbarra2 posicionbarra2 `uc  1 p 1 21 ]
+"1048
+[v barras@posicionbarra1 posicionbarra1 `uc  1 a 1 29 ]
+"1055
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 19 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 18 ]
+[v ___awdiv@counter counter `uc  1 a 1 17 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 12 ]
+[v ___awdiv@dividend dividend `i  1 p 2 14 ]
+"42
+} 0
+"889 C:\Users\piniel\MPLABXProjects\LABFINAL.X\Trayectoria.c
+[v _Marcador Marcador `(v  1 e 1 0 ]
+{
+"1043
+} 0
+"822
+[v _Gol Gol `(v  1 e 1 0 ]
+{
+"857
+} 0
+"361
+[v _enviardato2 enviardato2 `(v  1 e 1 0 ]
+{
+[v enviardato2@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato2@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato2@dato dato `uc  1 p 1 12 ]
+"363
+[v enviardato2@direccion direccion `uc  1 a 1 15 ]
+"372
+} 0
+"329
+[v _enviardato enviardato `(v  1 e 1 0 ]
+{
+[v enviardato@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato@dato dato `uc  1 p 1 12 ]
+"331
+[v enviardato@direccion direccion `uc  1 a 1 15 ]
+"342
+} 0
+"271
+[v _InitTMR1 InitTMR1 `(v  1 e 1 0 ]
+{
+"285
+} 0
+"286
+[v _InitSPI InitSPI `(v  1 e 1 0 ]
+{
+"312
+} 0
+"314
+[v _enviardato0 enviardato0 `(v  1 e 1 0 ]
+{
+[v enviardato0@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato0@direccion direccion `uc  1 a 1 wreg ]
+[v enviardato0@dato dato `uc  1 p 1 12 ]
+"316
+[v enviardato0@direccion direccion `uc  1 a 1 15 ]
+"327
+} 0
+"253
+[v _InitES InitES `(v  1 e 1 0 ]
+{
+"269
+} 0
+"65
+[v _rutinainterrupciones rutinainterrupciones `II(v  1 e 1 0 ]
+{
+"182
+} 0
+"1045
+[v i1_barras barras `(v  1 e 1 0 ]
+{
+[v i1barras@posicionbarra1 posicionbarra1 `uc  1 a 1 wreg ]
+[v i1barras@barrafinal2 barras `uc  1 a 1 12 ]
+[v i1barras@barrafinal1 barras `uc  1 a 1 11 ]
+[v i1barras@posicionbarra1 posicionbarra1 `uc  1 a 1 wreg ]
+[v i1barras@posicionbarra2 posicionbarra2 `uc  1 p 1 9 ]
+"1048
+[v i1barras@posicionbarra1 posicionbarra1 `uc  1 a 1 10 ]
+"1055
+} 0
+"361
+[v i1_enviardato2 enviardato2 `(v  1 e 1 0 ]
+{
+[v i1enviardato2@direccion direccion `uc  1 a 1 wreg ]
+[v i1enviardato2@direccion direccion `uc  1 a 1 wreg ]
+[v i1enviardato2@dato dato `uc  1 p 1 0 ]
+"363
+[v i1enviardato2@direccion direccion `uc  1 a 1 3 ]
+"372
+} 0
+"329
+[v i1_enviardato enviardato `(v  1 e 1 0 ]
+{
+[v i1enviardato@direccion direccion `uc  1 a 1 wreg ]
+[v i1enviardato@direccion direccion `uc  1 a 1 wreg ]
+[v i1enviardato@dato dato `uc  1 p 1 0 ]
+"331
+[v i1enviardato@direccion direccion `uc  1 a 1 3 ]
+"342
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.45\sources\common\awdiv.c
+[v i1___awdiv __awdiv `(i  1 e 2 0 ]
+{
+[v i1___awdiv@quotient __awdiv `i  1 a 2 7 ]
+[v i1___awdiv@sign __awdiv `uc  1 a 1 6 ]
+[v i1___awdiv@counter __awdiv `uc  1 a 1 5 ]
+[v i1___awdiv@divisor divisor `i  1 p 2 0 ]
+[v i1___awdiv@dividend dividend `i  1 p 2 2 ]
+"42
+} 0
